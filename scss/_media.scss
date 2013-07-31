@@ -1,0 +1,23 @@
+/*****
+    Cellular :: Media
+
+    (c)2012 Adam Blankenship
+*****/
+/////
+img {
+    display: block;
+    border: 0;
+    margin: 0 auto;
+    padding: $pad;
+}
+
+a img {
+    outline: none;
+}
+
+// Prevent modern browsers from displaying `audio` without controls.
+// Remove excess height in iOS 5 devices.
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}

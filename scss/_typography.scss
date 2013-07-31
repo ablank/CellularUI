@@ -1,0 +1,181 @@
+/*****
+    Cellular :: Typography
+    
+    (c)2012 Adam Blankenship
+*****/
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Quicksand Regular'), local('Quicksand-Regular'), url('//themes.googleusercontent.com/static/fonts/quicksand/v2/sKd0EMYPAh5PYCRKSryvWz8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Quicksand Bold'), local('Quicksand-Bold'), url('//themes.googleusercontent.com/static/fonts/quicksand/v2/32nyIRHyCu6iqEka_hbKsnhCUOGz7vYGh680lGh-uXM.woff') format('woff');
+}
+
+body {
+    font-family: $p_font;
+    line-height: $p_height;
+    font-size: $p_size;
+    color: $p_color;
+}
+p {
+    max-width: $p_max_width;
+    margin: 0 auto;
+    padding: $pad $pad ($pad * 1.2) $pad;
+    color: $p_color;
+}
+
+small {
+    font-size: $p_size * 0.75;
+}
+
+/*****
+    Links
+*****/
+a,
+a:link {
+    color: $a_color;
+    text-decoration: none;
+    outline: none;
+    @include transition($trans);
+}
+a:active,
+a:focus,
+a:hover {
+    color: lighten($a_color, $adjust);
+    text-decoration: underline;
+    @include transition($trans);
+}
+a:active,
+a:focus {
+    outline: thin dotted;
+    outline: .4em -webkit-focus-ring-color;
+    outline-offset: -.1em;
+}
+a:hover {
+    outline: 0;
+}
+a:visited {
+    color: darken($a_color, $adjust);
+}
+
+/*****
+    Headings
+*****/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: .2em;
+    font-family: $h_font;
+    font-weight: $h_weight;
+    line-height: 1em;
+    //border-bottom: $border;
+}
+
+h1 {
+    padding: 1em auto .2em 10%;
+    font-size: $h_size;
+    color: $h_color;
+}
+h2 {
+    font-size: $h_size * 2;
+    color: $h_color;
+}
+h3 {
+    font-size: $h_size * 1.6;
+    color: darken($h_color, $adjust);
+}
+h4 {
+    font-size: $h_size * 1.4;
+    color: darken($h_color, $adjust * 2);
+}
+h5 {
+    font-size: $p_size * 1.2;
+    color: darken($h_color, $adjust * 3);
+}
+h6 {
+    font-size: $p_size;
+    color: darken($h_color, $adjust * 4);
+}
+
+/*****
+    Etc.
+*****/
+// Super/Sub text
+sub,
+sup {
+    font-size: $p_size * 0.75;
+    line-height: 0;
+    vertical-align: baseline;
+}
+sup {
+    bottom: 0.5em;
+}
+sub {
+    top: 0.25em;
+}
+
+//* Quotes
+blockquote {
+    width: auto;
+    max-width: $p_max_width * 0.8;
+    margin: 1em auto;
+    padding: .5em 1em 0 1em;
+    font-size: $p_size;
+    line-height: $p_height * 1.8;
+    font-style: italic;
+    background: darken($c1, $adjust);
+    color: lighten($c2, $adjust);
+    border: lighten($c2, $adjust) $border;
+    
+    // Add quotation marks before & after
+    &:before{
+        content: "\201C";
+    }
+    &:after{
+        content: "\201D";
+    }
+    &:before,
+    &:after {
+        vertical-align: text-top;
+        font-size: $p_size * 3;
+        color: lighten($c2, $adjust * 2);
+    }
+}
+
+quote,
+q {
+    font-style: italic;
+    font-weight: bold;
+}
+
+caption {
+    text-align: left;
+}
+
+abbr,
+acronym {
+    border: 0;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+code,
+pre {
+    font-family: "Courier New", Courier, monospace;
+    margin: 1em auto;
+    padding: $pad;
+    overflow: auto;
+    white-space: pre;
+    white-space: pre-wrap;
+    white-space: pre-line;
+    word-wrap: break-word;
+}

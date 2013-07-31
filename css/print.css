@@ -1,0 +1,56 @@
+/* *************
+    Cellular :: Print
+
+(c)2012 Adam Blankenship
+*************** */
+@media print {
+  /* line 8, ../scss/print.scss */
+  img, p {
+    page-break-inside: avoid;
+  }
+
+  /* line 11, ../scss/print.scss */
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 12, ../scss/print.scss */
+  h2, h3 {
+    page-break-after: avoid;
+  }
+
+  /* line 15, ../scss/print.scss */
+  a,
+  a:visited {
+    color: #444;
+    text-decoration: underline;
+  }
+
+  /* line 19, ../scss/print.scss */
+  a:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 22, ../scss/print.scss */
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 29, ../scss/print.scss */
+  #app,
+  #content-wrap,
+  #content-main {
+    width: 100%;
+  }
+
+  /* line 35, ../scss/print.scss */
+  #header,
+  #sidebar,
+  #footer,
+  .hidden {
+    visibility: hidden;
+    display: none;
+  }
+}

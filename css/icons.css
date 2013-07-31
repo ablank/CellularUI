@@ -1,0 +1,621 @@
+/*****
+    Cellular :: Social media
+*****/
+/* line 13, ../scss/icons.scss */
+#icons li {
+  float: left;
+}
+/* line 17, ../scss/icons.scss */
+#icons .icon {
+  display: block;
+  text-indent: -999em;
+  width: 32px;
+  height: 32px;
+  margin: .3em .5em;
+  padding: 0.5em 0.5em 0.5em 1.5em;
+  background-color: #333;
+}
+/* line 26, ../scss/icons.scss */
+#icons .icon:hover {
+  background-color: #111;
+}
+/* line 31, ../scss/icons.scss */
+#icons .icon.facebook {
+  background: url("icons/social/facebook1.png") 0.5em 0.5em no-repeat;
+}
+/* line 32, ../scss/icons.scss */
+#icons .icon.facebook2 {
+  background: url("icons/social/facebook2.png") 0.5em 0.5em no-repeat;
+}
+/* line 33, ../scss/icons.scss */
+#icons .icon.googleplus {
+  background: url("icons/social/googleplus1.png") 0.5em 0.5em no-repeat;
+}
+/* line 34, ../scss/icons.scss */
+#icons .icon.googleplus2 {
+  background: url("icons/social/googleplus2.png") 0.5em 0.5em no-repeat;
+}
+/* line 35, ../scss/icons.scss */
+#icons .icon.googleplus-g {
+  background: url("icons/social/googleplus-g1.png") 0.5em 0.5em no-repeat;
+}
+/* line 36, ../scss/icons.scss */
+#icons .icon.googleplus-g2 {
+  background: url("icons/social/googleplus-g2.png") 0.5em 0.5em no-repeat;
+}
+/* line 37, ../scss/icons.scss */
+#icons .icon.twitter {
+  background: url("icons/social/twitter1.png") 0.5em 0.5em no-repeat;
+}
+/* line 38, ../scss/icons.scss */
+#icons .icon.twitter2 {
+  background: url("icons/social/twitter2.png") 0.5em 0.5em no-repeat;
+}
+/* line 39, ../scss/icons.scss */
+#icons .icon.twitter-b {
+  background: url("icons/social/twitterb1.png") 0.5em 0.5em no-repeat;
+}
+/* line 40, ../scss/icons.scss */
+#icons .icon.twitter-b2 {
+  background: url("icons/social/twitterb2.png") 0.5em 0.5em no-repeat;
+}
+/* line 41, ../scss/icons.scss */
+#icons .icon.myspace {
+  background: url("icons/social/myspace1.png") 0.5em 0.5em no-repeat;
+}
+/* line 42, ../scss/icons.scss */
+#icons .icon.myspace2 {
+  background: url("icons/social/myspace2.png") 0.5em 0.5em no-repeat;
+}
+/* line 43, ../scss/icons.scss */
+#icons .icon.linkedin {
+  background: url("icons/social/linkedin1.png") 0.5em 0.5em no-repeat;
+}
+/* line 44, ../scss/icons.scss */
+#icons .icon.linkedin2 {
+  background: url("icons/social/linkedin2.png") 0.5em 0.5em no-repeat;
+}
+/* line 45, ../scss/icons.scss */
+#icons .icon.pinterest {
+  background: url("icons/social/pinterest1.png") 0.5em 0.5em no-repeat;
+}
+/* line 46, ../scss/icons.scss */
+#icons .icon.pinterest2 {
+  background: url("icons/social/pinterest2.png") 0.5em 0.5em no-repeat;
+}
+/* line 47, ../scss/icons.scss */
+#icons .icon.reddit {
+  background: url("icons/social/reddit.png") 0.5em 0.5em no-repeat;
+}
+/* line 49, ../scss/icons.scss */
+#icons .icon.behance {
+  background: url("icons/social/behance.png") 0.5em 0.5em no-repeat;
+}
+/* line 50, ../scss/icons.scss */
+#icons .icon.delicious {
+  background: url("icons/social/delicious.png") 0.5em 0.5em no-repeat;
+}
+/* line 51, ../scss/icons.scss */
+#icons .icon.deviantart {
+  background: url("icons/social/deviantart.png") 0.5em 0.5em no-repeat;
+}
+/* line 52, ../scss/icons.scss */
+#icons .icon.digg {
+  background: url("icons/social/digg.png") 0.5em 0.5em no-repeat;
+}
+/* line 53, ../scss/icons.scss */
+#icons .icon.flickr {
+  background: url("icons/social/flickr.png") 0.5em 0.5em no-repeat;
+}
+/* line 54, ../scss/icons.scss */
+#icons .icon.github {
+  background: url("icons/social/github1.png") 0.5em 0.5em no-repeat;
+}
+/* line 55, ../scss/icons.scss */
+#icons .icon.github2 {
+  background: url("icons/social/github2.png") 0.5em 0.5em no-repeat;
+}
+/* line 56, ../scss/icons.scss */
+#icons .icon.grooveshark {
+  background: url("icons/social/grooveshark.png") 0.5em 0.5em no-repeat;
+}
+/* line 57, ../scss/icons.scss */
+#icons .icon.skype {
+  background: url("icons/social/skype.png") 0.5em 0.5em no-repeat;
+}
+/* line 58, ../scss/icons.scss */
+#icons .icon.slashdot {
+  background: url("icons/social/slashdot.png") 0.5em 0.5em no-repeat;
+}
+/* line 59, ../scss/icons.scss */
+#icons .icon.soundcloud {
+  background: url("icons/social/soundcloud.png") 0.5em 0.5em no-repeat;
+}
+/* line 60, ../scss/icons.scss */
+#icons .icon.stackoverflow {
+  background: url("icons/social/stackoverflow.png") 0.5em 0.5em no-repeat;
+}
+/* line 61, ../scss/icons.scss */
+#icons .icon.stumbleupon {
+  background: url("icons/social/stumbleupon.png") 0.5em 0.5em no-repeat;
+}
+/* line 62, ../scss/icons.scss */
+#icons .icon.technorati {
+  background: url("icons/social/technorati.png") 0.5em 0.5em no-repeat;
+}
+/* line 63, ../scss/icons.scss */
+#icons .icon.youtube {
+  background: url("icons/social/youtube.png") 0.5em 0.5em no-repeat;
+}
+/* line 65, ../scss/icons.scss */
+#icons .icon.home {
+  background: url("icons/ui/home.png") 0.5em 0.5em no-repeat;
+}
+/* line 66, ../scss/icons.scss */
+#icons .icon.wrench {
+  background: url("icons/ui/wrench.png") 0.5em 0.5em no-repeat;
+}
+/* line 67, ../scss/icons.scss */
+#icons .icon.gear {
+  background: url("icons/ui/gear.png") 0.5em 0.5em no-repeat;
+}
+/* line 68, ../scss/icons.scss */
+#icons .icon.key {
+  background: url("icons/ui/key.png") 0.5em 0.5em no-repeat;
+}
+/* line 69, ../scss/icons.scss */
+#icons .icon.lock {
+  background: url("icons/ui/lock.png") 0.5em 0.5em no-repeat;
+}
+/* line 70, ../scss/icons.scss */
+#icons .icon.cart {
+  background: url("icons/ui/cart.png") 0.5em 0.5em no-repeat;
+}
+/* line 71, ../scss/icons.scss */
+#icons .icon.user {
+  background: url("icons/ui/user.png") 0.5em 0.5em no-repeat;
+}
+/* line 72, ../scss/icons.scss */
+#icons .icon.user-social {
+  background: url("icons/ui/user-social.png") 0.5em 0.5em no-repeat;
+}
+/* line 73, ../scss/icons.scss */
+#icons .icon.eye {
+  background: url("icons/ui/eye.png") 0.5em 0.5em no-repeat;
+}
+/* line 74, ../scss/icons.scss */
+#icons .icon.pano {
+  background: url("icons/ui/panorama.png") 0.5em 0.5em no-repeat;
+}
+/* line 75, ../scss/icons.scss */
+#icons .icon.camera {
+  background: url("icons/ui/camera.png") 0.5em 0.5em no-repeat;
+}
+/* line 76, ../scss/icons.scss */
+#icons .icon.menu {
+  background: url("icons/ui/menu.png") 0.5em 0.5em no-repeat;
+}
+/* line 77, ../scss/icons.scss */
+#icons .icon.folder {
+  background: url("icons/ui/folder.png") 0.5em 0.5em no-repeat;
+}
+/* line 78, ../scss/icons.scss */
+#icons .icon.zip {
+  background: url("icons/ui/zip.png") 0.5em 0.5em no-repeat;
+}
+/* line 79, ../scss/icons.scss */
+#icons .icon.doc {
+  background: url("icons/ui/doc.png") 0.5em 0.5em no-repeat;
+}
+/* line 80, ../scss/icons.scss */
+#icons .icon.printer {
+  background: url("icons/ui/printer.png") 0.5em 0.5em no-repeat;
+}
+/* line 81, ../scss/icons.scss */
+#icons .icon.html5 {
+  background: url("icons/ui/html5.png") 0.5em 0.5em no-repeat;
+}
+/* line 82, ../scss/icons.scss */
+#icons .icon.css3 {
+  background: url("icons/ui/css3.png") 0.5em 0.5em no-repeat;
+}
+/* line 83, ../scss/icons.scss */
+#icons .icon.jquery {
+  background: url("icons/ui/jquery.png") 0.5em 0.5em no-repeat;
+}
+/* line 84, ../scss/icons.scss */
+#icons .icon.angular {
+  background: url("icons/ui/angular.png") 0.5em 0.5em no-repeat;
+}
+/* line 85, ../scss/icons.scss */
+#icons .icon.php {
+  background: url("icons/ui/php.png") 0.5em 0.5em no-repeat;
+}
+/* line 86, ../scss/icons.scss */
+#icons .icon.wordpress {
+  background: url("icons/ui/wordpress.png") 0.5em 0.5em no-repeat;
+}
+/* line 87, ../scss/icons.scss */
+#icons .icon.drupal {
+  background: url("icons/ui/drupal.png") 0.5em 0.5em no-repeat;
+}
+/* line 88, ../scss/icons.scss */
+#icons .icon.codeigniter {
+  background: url("icons/ui/codeigniter.png") 0.5em 0.5em no-repeat;
+}
+/* line 89, ../scss/icons.scss */
+#icons .icon.symfony {
+  background: url("icons/ui/symfony.png") 0.5em 0.5em no-repeat;
+}
+/* line 90, ../scss/icons.scss */
+#icons .icon.rss {
+  background: url("icons/ui/rss.png") 0.5em 0.5em no-repeat;
+}
+/* line 91, ../scss/icons.scss */
+#icons .icon.email {
+  background: url("icons/ui/email.png") 0.5em 0.5em no-repeat;
+}
+/* line 92, ../scss/icons.scss */
+#icons .icon.email2 {
+  background: url("icons/ui/email2.png") 0.5em 0.5em no-repeat;
+}
+/* line 93, ../scss/icons.scss */
+#icons .icon.phone {
+  background: url("icons/ui/phone.png") 0.5em 0.5em no-repeat;
+}
+/* line 94, ../scss/icons.scss */
+#icons .icon.phone2 {
+  background: url("icons/ui/phone2.png") 0.5em 0.5em no-repeat;
+}
+/* line 95, ../scss/icons.scss */
+#icons .icon.phone3 {
+  background: url("icons/ui/phone3.png") 0.5em 0.5em no-repeat;
+}
+/* line 96, ../scss/icons.scss */
+#icons .icon.chat {
+  background: url("icons/ui/chat.png") 0.5em 0.5em no-repeat;
+}
+/* line 97, ../scss/icons.scss */
+#icons .icon.mobile {
+  background: url("icons/ui/mobile.png") 0.5em 0.5em no-repeat;
+}
+/* line 98, ../scss/icons.scss */
+#icons .icon.laptop {
+  background: url("icons/ui/laptop.png") 0.5em 0.5em no-repeat;
+}
+/* line 99, ../scss/icons.scss */
+#icons .icon.desktop {
+  background: url("icons/ui/desktop.png") 0.5em 0.5em no-repeat;
+}
+/* line 100, ../scss/icons.scss */
+#icons .icon.w3c {
+  background: url("icons/ui/w3c.png") 0.5em 0.5em no-repeat;
+}
+/* line 101, ../scss/icons.scss */
+#icons .icon.creativecommons {
+  background: url("icons/ui/creativecommons.png") 0.5em 0.5em no-repeat;
+}
+/* line 102, ../scss/icons.scss */
+#icons .icon.android {
+  background: url("icons/ui/android.png") 0.5em 0.5em no-repeat;
+}
+/* line 103, ../scss/icons.scss */
+#icons .icon.linux {
+  background: url("icons/ui/linux.png") 0.5em 0.5em no-repeat;
+}
+/* line 104, ../scss/icons.scss */
+#icons .icon.mac {
+  background: url("icons/ui/mac.png") 0.5em 0.5em no-repeat;
+}
+/* line 105, ../scss/icons.scss */
+#icons .icon.mac2 {
+  background: url("icons/ui/mac2.png") 0.5em 0.5em no-repeat;
+}
+/* line 106, ../scss/icons.scss */
+#icons .icon.windows {
+  background: url("icons/ui/windows.png") 0.5em 0.5em no-repeat;
+}
+/* line 107, ../scss/icons.scss */
+#icons .icon.windows2 {
+  background: url("icons/ui/windows2.png") 0.5em 0.5em no-repeat;
+}
+/* line 113, ../scss/icons.scss */
+#icons .svg.facebook {
+  background: url("icons/social/facebook1.svg") 0.5em 0.5em no-repeat;
+}
+/* line 114, ../scss/icons.scss */
+#icons .svg.facebook2 {
+  background: url("icons/social/facebook2.svg") 0.5em 0.5em no-repeat;
+}
+/* line 115, ../scss/icons.scss */
+#icons .svg.googleplus {
+  background: url("icons/social/googleplus1.svg") 0.5em 0.5em no-repeat;
+}
+/* line 116, ../scss/icons.scss */
+#icons .svg.googleplus2 {
+  background: url("icons/social/googleplus2.svg") 0.5em 0.5em no-repeat;
+}
+/* line 117, ../scss/icons.scss */
+#icons .svg.googleplus-g {
+  background: url("icons/social/googleplus-g1.svg") 0.5em 0.5em no-repeat;
+}
+/* line 118, ../scss/icons.scss */
+#icons .svg.googleplus-g2 {
+  background: url("icons/social/googleplus-g2.svg") 0.5em 0.5em no-repeat;
+}
+/* line 119, ../scss/icons.scss */
+#icons .svg.twitter {
+  background: url("icons/social/twitter1.svg") 0.5em 0.5em no-repeat;
+}
+/* line 120, ../scss/icons.scss */
+#icons .svg.twitter2 {
+  background: url("icons/social/twitter2.svg") 0.5em 0.5em no-repeat;
+}
+/* line 121, ../scss/icons.scss */
+#icons .svg.twitter-b {
+  background: url("icons/social/twitterb1.svg") 0.5em 0.5em no-repeat;
+}
+/* line 122, ../scss/icons.scss */
+#icons .svg.twitter-b2 {
+  background: url("icons/social/twitterb2.svg") 0.5em 0.5em no-repeat;
+}
+/* line 123, ../scss/icons.scss */
+#icons .svg.myspace {
+  background: url("icons/social/myspace1.svg") 0.5em 0.5em no-repeat;
+}
+/* line 124, ../scss/icons.scss */
+#icons .svg.myspace2 {
+  background: url("icons/social/myspace2.svg") 0.5em 0.5em no-repeat;
+}
+/* line 125, ../scss/icons.scss */
+#icons .svg.linkedin {
+  background: url("icons/social/linkedin1.svg") 0.5em 0.5em no-repeat;
+}
+/* line 126, ../scss/icons.scss */
+#icons .svg.linkedin2 {
+  background: url("icons/social/linkedin2.svg") 0.5em 0.5em no-repeat;
+}
+/* line 127, ../scss/icons.scss */
+#icons .svg.pinterest {
+  background: url("icons/social/pinterest1.svg") 0.5em 0.5em no-repeat;
+}
+/* line 128, ../scss/icons.scss */
+#icons .svg.pinterest2 {
+  background: url("icons/social/pinterest2.svg") 0.5em 0.5em no-repeat;
+}
+/* line 129, ../scss/icons.scss */
+#icons .svg.reddit {
+  background: url("icons/social/reddit.svg") 0.5em 0.5em no-repeat;
+}
+/* line 131, ../scss/icons.scss */
+#icons .svg.behance {
+  background: url("icons/social/behance.svg") 0.5em 0.5em no-repeat;
+}
+/* line 132, ../scss/icons.scss */
+#icons .svg.delicious {
+  background: url("icons/social/delicious.svg") 0.5em 0.5em no-repeat;
+}
+/* line 133, ../scss/icons.scss */
+#icons .svg.deviantart {
+  background: url("icons/social/deviantart.svg") 0.5em 0.5em no-repeat;
+}
+/* line 134, ../scss/icons.scss */
+#icons .svg.digg {
+  background: url("icons/social/digg.svg") 0.5em 0.5em no-repeat;
+}
+/* line 135, ../scss/icons.scss */
+#icons .svg.flickr {
+  background: url("icons/social/flickr.svg") 0.5em 0.5em no-repeat;
+}
+/* line 136, ../scss/icons.scss */
+#icons .svg.github {
+  background: url("icons/social/github1.svg") 0.5em 0.5em no-repeat;
+}
+/* line 137, ../scss/icons.scss */
+#icons .svg.github2 {
+  background: url("icons/social/github2.svg") 0.5em 0.5em no-repeat;
+}
+/* line 138, ../scss/icons.scss */
+#icons .svg.grooveshark {
+  background: url("icons/social/grooveshark.svg") 0.5em 0.5em no-repeat;
+}
+/* line 139, ../scss/icons.scss */
+#icons .svg.skype {
+  background: url("icons/social/skype.svg") 0.5em 0.5em no-repeat;
+}
+/* line 140, ../scss/icons.scss */
+#icons .svg.slashdot {
+  background: url("icons/social/slashdot.svg") 0.5em 0.5em no-repeat;
+}
+/* line 141, ../scss/icons.scss */
+#icons .svg.soundcloud {
+  background: url("icons/social/soundcloud.svg") 0.5em 0.5em no-repeat;
+}
+/* line 142, ../scss/icons.scss */
+#icons .svg.stackoverflow {
+  background: url("icons/social/stackoverflow.svg") 0.5em 0.5em no-repeat;
+}
+/* line 143, ../scss/icons.scss */
+#icons .svg.stumbleupon {
+  background: url("icons/social/stumbleupon.svg") 0.5em 0.5em no-repeat;
+}
+/* line 144, ../scss/icons.scss */
+#icons .svg.technorati {
+  background: url("icons/social/technorati.svg") 0.5em 0.5em no-repeat;
+}
+/* line 145, ../scss/icons.scss */
+#icons .svg.youtube {
+  background: url("icons/social/youtube.svg") 0.5em 0.5em no-repeat;
+}
+/* line 147, ../scss/icons.scss */
+#icons .svg.home {
+  background: url("icons/ui/home.svg") 0.5em 0.5em no-repeat;
+}
+/* line 148, ../scss/icons.scss */
+#icons .svg.wrench {
+  background: url("icons/ui/wrench.svg") 0.5em 0.5em no-repeat;
+}
+/* line 149, ../scss/icons.scss */
+#icons .svg.gear {
+  background: url("icons/ui/gear.svg") 0.5em 0.5em no-repeat;
+}
+/* line 150, ../scss/icons.scss */
+#icons .svg.key {
+  background: url("icons/ui/key.svg") 0.5em 0.5em no-repeat;
+}
+/* line 151, ../scss/icons.scss */
+#icons .svg.lock {
+  background: url("icons/ui/lock.svg") 0.5em 0.5em no-repeat;
+}
+/* line 152, ../scss/icons.scss */
+#icons .svg.cart {
+  background: url("icons/ui/cart.svg") 0.5em 0.5em no-repeat;
+}
+/* line 153, ../scss/icons.scss */
+#icons .svg.user {
+  background: url("icons/ui/user.svg") 0.5em 0.5em no-repeat;
+}
+/* line 154, ../scss/icons.scss */
+#icons .svg.user-social {
+  background: url("icons/ui/user-social.svg") 0.5em 0.5em no-repeat;
+}
+/* line 155, ../scss/icons.scss */
+#icons .svg.eye {
+  background: url("icons/ui/eye.svg") 0.5em 0.5em no-repeat;
+}
+/* line 156, ../scss/icons.scss */
+#icons .svg.pano {
+  background: url("icons/ui/panorama.svg") 0.5em 0.5em no-repeat;
+}
+/* line 157, ../scss/icons.scss */
+#icons .svg.camera {
+  background: url("icons/ui/camera.svg") 0.5em 0.5em no-repeat;
+}
+/* line 158, ../scss/icons.scss */
+#icons .svg.menu {
+  background: url("icons/ui/menu.svg") 0.5em 0.5em no-repeat;
+}
+/* line 159, ../scss/icons.scss */
+#icons .svg.folder {
+  background: url("icons/ui/folder.svg") 0.5em 0.5em no-repeat;
+}
+/* line 160, ../scss/icons.scss */
+#icons .svg.zip {
+  background: url("icons/ui/zip.svg") 0.5em 0.5em no-repeat;
+}
+/* line 161, ../scss/icons.scss */
+#icons .svg.doc {
+  background: url("icons/ui/doc.svg") 0.5em 0.5em no-repeat;
+}
+/* line 162, ../scss/icons.scss */
+#icons .svg.printer {
+  background: url("icons/ui/printer.svg") 0.5em 0.5em no-repeat;
+}
+/* line 163, ../scss/icons.scss */
+#icons .svg.html5 {
+  background: url("icons/ui/html5.svg") 0.5em 0.5em no-repeat;
+}
+/* line 164, ../scss/icons.scss */
+#icons .svg.css3 {
+  background: url("icons/ui/css3.svg") 0.5em 0.5em no-repeat;
+}
+/* line 165, ../scss/icons.scss */
+#icons .svg.jquery {
+  background: url("icons/ui/jquery.svg") 0.5em 0.5em no-repeat;
+}
+/* line 166, ../scss/icons.scss */
+#icons .svg.angular {
+  background: url("icons/ui/angular.svg") 0.5em 0.5em no-repeat;
+}
+/* line 167, ../scss/icons.scss */
+#icons .svg.php {
+  background: url("icons/ui/php.svg") 0.5em 0.5em no-repeat;
+}
+/* line 168, ../scss/icons.scss */
+#icons .svg.wordpress {
+  background: url("icons/ui/wordpress.svg") 0.5em 0.5em no-repeat;
+}
+/* line 169, ../scss/icons.scss */
+#icons .svg.drupal {
+  background: url("icons/ui/drupal.svg") 0.5em 0.5em no-repeat;
+}
+/* line 170, ../scss/icons.scss */
+#icons .svg.codeigniter {
+  background: url("icons/ui/codeigniter.svg") 0.5em 0.5em no-repeat;
+}
+/* line 171, ../scss/icons.scss */
+#icons .svg.symfony {
+  background: url("icons/ui/symfony.svg") 0.5em 0.5em no-repeat;
+}
+/* line 172, ../scss/icons.scss */
+#icons .svg.rss {
+  background: url("icons/ui/rss.svg") 0.5em 0.5em no-repeat;
+}
+/* line 173, ../scss/icons.scss */
+#icons .svg.email {
+  background: url("icons/ui/email.svg") 0.5em 0.5em no-repeat;
+}
+/* line 174, ../scss/icons.scss */
+#icons .svg.email2 {
+  background: url("icons/ui/email2.svg") 0.5em 0.5em no-repeat;
+}
+/* line 175, ../scss/icons.scss */
+#icons .svg.phone {
+  background: url("icons/ui/phone.svg") 0.5em 0.5em no-repeat;
+}
+/* line 176, ../scss/icons.scss */
+#icons .svg.phone2 {
+  background: url("icons/ui/phone2.svg") 0.5em 0.5em no-repeat;
+}
+/* line 177, ../scss/icons.scss */
+#icons .svg.phone3 {
+  background: url("icons/ui/phone3.svg") 0.5em 0.5em no-repeat;
+}
+/* line 178, ../scss/icons.scss */
+#icons .svg.chat {
+  background: url("icons/ui/chat.svg") 0.5em 0.5em no-repeat;
+}
+/* line 179, ../scss/icons.scss */
+#icons .svg.mobile {
+  background: url("icons/ui/mobile.svg") 0.5em 0.5em no-repeat;
+}
+/* line 180, ../scss/icons.scss */
+#icons .svg.laptop {
+  background: url("icons/ui/laptop.svg") 0.5em 0.5em no-repeat;
+}
+/* line 181, ../scss/icons.scss */
+#icons .svg.desktop {
+  background: url("icons/ui/desktop.svg") 0.5em 0.5em no-repeat;
+}
+/* line 182, ../scss/icons.scss */
+#icons .svg.w3c {
+  background: url("icons/ui/w3c.svg") 0.5em 0.5em no-repeat;
+}
+/* line 183, ../scss/icons.scss */
+#icons .svg.creativecommons {
+  background: url("icons/ui/creativecommons.svg") 0.5em 0.5em no-repeat;
+}
+/* line 184, ../scss/icons.scss */
+#icons .svg.android {
+  background: url("icons/ui/android.svg") 0.5em 0.5em no-repeat;
+}
+/* line 185, ../scss/icons.scss */
+#icons .svg.linux {
+  background: url("icons/ui/linux.svg") 0.5em 0.5em no-repeat;
+}
+/* line 186, ../scss/icons.scss */
+#icons .svg.mac {
+  background: url("icons/ui/mac.svg") 0.5em 0.5em no-repeat;
+}
+/* line 187, ../scss/icons.scss */
+#icons .svg.mac2 {
+  background: url("icons/ui/mac2.svg") 0.5em 0.5em no-repeat;
+}
+/* line 188, ../scss/icons.scss */
+#icons .svg.windows {
+  background: url("icons/ui/windows.svg") 0.5em 0.5em no-repeat;
+}
+/* line 189, ../scss/icons.scss */
+#icons .svg.windows2 {
+  background: url("icons/ui/windows2.svg") 0.5em 0.5em no-repeat;
+}
