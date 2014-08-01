@@ -52,22 +52,6 @@ cellular.kidWrap = function() {
         }
     });
 };
-
-/////
-cellular.yPos = function() {
-    return this.each(function() {
-        var $t = jQuery(this);
-
-        $t.offset();
-    });
-};
-
-cellular.loop = function($obj, fn) {
-    if ($obj.next().length === 0) {
-        $obj.next = $obj.siblings(0);
-    }
-};
-
  
  ///// 
 cellular.jAccordion = function(opts) {
@@ -223,13 +207,13 @@ cellular.jScrolli = function(opts) {
             jQuery(this).hide();
         });
 
-        jQuery(active).fadeToggle(o.speed, function() {
+        jQuery(active).fadeIn(o.speed, function() {
                     var $t = jQuery(this);
                     var next = $t.next();
                     if (next.length === 0) {
                         next = $i[0];
                     }
-                    $t.delay(o.pause).fadeToggle(o.speed, function() {
+                    $t.delay(o.pause).fadeOut(o.speed, function() {
                         $obj.jScrolli({
                             "active": next,
                             "speed": o.speed,
