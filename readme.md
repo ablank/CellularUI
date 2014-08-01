@@ -47,7 +47,7 @@ $('.jTabs').jTabs({
 
 $('#nav').jMmenu({
 "breakpoint": 650 // Window breakpoint trigger
-});`
+});
 ```
 
 __Style the interface:__ `/sass/style/style-ui.css`
