@@ -10,11 +10,12 @@ cellular.jBlocklink = function(opts) {
         var c = a.attr('class') ? a.attr('class') : '';
         var bl = jQuery('<a href="' + a.attr('href') + '" class="' + cellular.opts.cclass + ' jBlocklink ' + c + '" />');
 
-        $obj.wrap(bl);
-        bl.hover(function() {
-            bl.activate();
+        $obj.wrap(bl)
+            .find('h2, h3').addClass('title');
+        $obj.hover(function() {
+            jQuery(this).activate();
         }, function() {
-            bl.deactivate();
+            jQuery(this).deactivate();
         });
     });
 };

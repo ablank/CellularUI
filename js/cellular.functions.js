@@ -29,3 +29,18 @@ cellular.kidWrap = function() {
         }
     });
 };
+
+/////
+cellular.yPos = function() {
+    return this.each(function() {
+        var $t = jQuery(this);
+
+        $t.offset();
+    });
+};
+
+cellular.loop = function($obj, fn) {
+    if ($obj.next().length === 0) {
+        $obj.next = $obj.siblings(0);
+    }
+};

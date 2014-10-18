@@ -32,7 +32,7 @@ cellular.jAccordion = function(opts) {
             $t.kidWrap();
 
             $t.children().eq(0).addClass('title');
-            $t.children().eq(1).addClass('panel');
+            $t.children().eq(1).addClass(cellular.opts.cclass + ' panel');
 
             $t.find('.panel').hide();
 
