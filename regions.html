@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Cellular Front-End Framework</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index, follow" />
+  <link rel="author" href="humans.txt" type="text/plain" />
+
+  <link rel="shortcut icon" href="assets/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="assets/favicons/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/favicons/apple-touch-icon-144.png" sizes="144x144" />
+  <link rel="apple-touch-icon" href="assets/favicons/apple-touch-icon-114.png" sizes="114x114" />
+  <link rel="apple-touch-icon" href="assets/favicons/apple-touch-icon-57.png" />
+
+  <link type="text/css" rel="stylesheet" href="css/style.css" media="all" />
+  <link type="text/css" rel="stylesheet" href="css/print.css" media="print" />
+  <!--[if lt IE 10]>
+    <style type="text/css" media="all">@import url("css/ie.css");</style>
+    <![endif]-->
+
+  <link type="text/css" rel="stylesheet" href="css/prism.css" media="all" />
+</head>
+
+<body class="dual-sidebars">
+  <div id="page-wrap">
+
+    <div id="skipLinks" class="hidden">
+      <a href="#content">Skip to main content</a>
+      <a href="#nav">Skip to navigation</a>
+    </div>
+
+    <div id="header-top">
+      <div>Header Top</div>
+    </div>
+
+    <div id="header">
+      <div id="logo">
+        <a href="/">Drupal 7 Dev</a>
+      </div>
+
+      <div id="nav">
+        <ul class="menu">
+          <li>
+            <a href="/" title="Home">Home</a>
+          </li>
+        </ul>
+      </div>
+
+      <h3>Header</h3>
+    </div>
+    <!-- /#header -->
+
+    <div id="header-bottom">
+      <h3>Header Bottom</h3>
+    </div>
+
+    <div id="app">
+
+      <h1 id="page-title">Cellular</h1>
+
+      <div id="content-wrap" class="cell center">
+
+        <div id="console">
+          <h3>Console</h3>
+        </div>
+
+        <div id="sidebar-left" class="cell-20">
+          <h3>Left Sidebar</h3>
+        </div>
+        <!-- /#sidebar-left -->
+
+        <div id="content" class="cell-60">
+
+          <div id="content-top" class="cell">
+            <h3>Content Top</h3>
+          </div>
+
+          <h3>Content Main</h3> 
+
+          <div id="content-bottom" class="cell">
+            <h3>Content Bottom</h3>
+          </div>
+        </div>
+        <!-- /#content -->
+
+        <div id="sidebar-right" class="cell-20">
+          <h3>Right Sidebar</div>
+        </div>
+          <!-- /#sidebar-right -->
+
+        </div>
+        <!-- /#content-wrap-->
+      </div>
+      <!-- /#app-->
+
+        <div id="footer-top" class="cell">
+          <h3>Footer Top</h3>
+        </div>
+        <div id="footer" class="cell">
+          <h3>Footer</div>
+        <div id="footer-bottom" class="cell">
+          <h3>Footer Bottom</h3>
+          <small id="copyright">&copy; 2014 Adam Blankenship</small>
+        </div>
+        <!-- /#footer-bottom -->
+      </div>
+      <!-- /#footer -->
+
+    </div>
+    <!-- /#page-wrap-->
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      Modernizr.load([
+        {
+          test: Modernizr.svg,
+          yep: ['css/icons-svg.css'],
+          nope: ['css/icons-png.css']
+        }, ]);
+       //--><!]]>
+    </script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      window.jQuery || document.write("<script src=\"js/jquery-1.11.1.min.js\">\x3C/script>")
+       //--><!]]>
+    </script>
+
+    <script type="text/javascript" src="js/jquery.once.js"></script>
+    <script type="text/javascript" src="js/jquery.cellular.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>

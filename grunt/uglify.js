@@ -1,28 +1,27 @@
 module.exports = {
-    prod: {
-        options: {
-            mangle: true,
-            beautify: false,
-            preserveComments: 'some',
-            compress: true,
-            expand: true,
-        },
-        files: {
-            'jquery.cellular.min.js': ['jquery.cellular.js'],
-        },
+  prod: {
+    options: {
+      mangle: true,
+      beautify: false,
+      preserveComments: 'some',
+      compress: true,
+      expand: true,
     },
-    dev: {
-        options: {
-            mangle: false,
-            beautify: true,
-            mangle: false,
-                    beautify: true,
-                    preserveComments: 'all',
-            comments: 'all'
-        },
-        files: {
-            'jquery.cellular.js': ['jquery.cellular.js'],
-        }
+    files: {
+      'js/jquery.cellular.min.js': ['js/jquery.cellular.js'],
+    },
+  },
+  dev: {
+    options: {
+      mangle: false,
+      beautify: true,
+      mangle: false,
+      beautify: true,
+      preserveComments: 'all',
+      comments: 'all'
+    },
+    files: {
+      'js/jquery.cellular.js': ['js/jquery.cellular.js'],
     }
+  }
 };
-
