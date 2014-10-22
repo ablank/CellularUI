@@ -14,12 +14,12 @@ cellular.jFormal = function (opts) {
     $(inputs).each(function () {
       var $t = jQuery(this);
       var $v = $t.val();
-      $t.live('focus', function () {
+      $t.on('focus', function () {
         // clear the default value of an input on focus
         if ($t.val() === $v) {
           $t.val("");
         }
-      }).live('blur', function () {
+      }).on('blur', function () {
         // reset to default value if no changes were made
         if ($t.val() === "") {
           $t.val($v);
